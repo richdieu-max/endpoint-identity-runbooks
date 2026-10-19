@@ -6,16 +6,7 @@ Give administrators RDP access to Azure VMs that have **no public IP**, through 
 
 ## Shape
 
-```mermaid
-flowchart LR
-    L[Admin laptop<br/>Azure VPN Client] -->|1 · sign in + MFA| E[Microsoft Entra ID<br/>Conditional Access]
-    E -->|2 · token| L
-    L -->|3 · OpenVPN, TLS 443| GW[VPN gateway<br/>in GatewaySubnet]
-    subgraph VNet [Virtual network, private only]
-        GW --> VM[VM subnet<br/>no public IPs<br/>NSG: 3389 from VPN pool only]
-    end
-    L -.->|4 · RDP to private IP| VM
-```
+![Admin laptop signs in through Entra ID and Conditional Access, tunnels to the VPN gateway over TLS 443, then RDPs to VMs with private IPs only](../diagrams/azure-p2s-vpn-entra-id.svg)
 
 ## Address plan
 

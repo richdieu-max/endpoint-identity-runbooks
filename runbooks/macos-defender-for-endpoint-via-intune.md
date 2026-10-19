@@ -7,15 +7,7 @@ Onboard Intune-managed Macs to Defender for Endpoint with no user prompts: seven
 
 ## The order matters
 
-```mermaid
-flowchart LR
-    A[1 · Connector on<br/>Defender ↔ Intune] --> B[2 · Devices set to<br/>Corporate ownership]
-    B --> C[3 · Dynamic group<br/>deviceOSType = MacMDM]
-    C --> D[4 · Seven permission<br/>profiles, device channel]
-    D --> E[5 · Onboarding<br/>profile]
-    E --> F[6 · Defender app<br/>Required]
-    F --> G[7 · Verify in Intune,<br/>Defender portal, on the Mac]
-```
+![Seven-step deployment across the Defender portal, Intune and the Mac: connector, ownership, group, seven profiles, onboarding, app, verify](../diagrams/macos-defender-for-endpoint-via-intune.svg)
 
 If the app lands before the system extension profile, the user is asked to approve the extension. Profiles first, app last.
 

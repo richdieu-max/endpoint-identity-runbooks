@@ -11,23 +11,7 @@ A backup architecture for EU-hosted Azure workloads that need recovery points mo
 
 ## Architecture
 
-```mermaid
-flowchart LR
-    subgraph P [Primary region]
-        VMs[Production VMs] -->|every 4 h, app-aware| VB[Veeam Backup<br/>for Microsoft Azure]
-        VB --> R1[(Blob repository<br/>14 days, immutable)]
-        SQLV[SQL Server on VMs] -->|full daily · diff 4 h · log 15 min| AB[Azure Backup<br/>Recovery Services vault]
-        SQLP[Azure SQL Database] -->|automated backups, 35 d, geo-redundant| GEO
-        KV[Key Vault<br/>CMK, purge protection]
-    end
-    subgraph S [Secondary region]
-        R2[(Blob repository<br/>35 days, immutable)]
-        GEO[(Geo-replicated<br/>SQL backups)]
-        ASR[Site Recovery<br/>replicas, Tier 1]
-    end
-    R1 -->|backup copy job, private endpoints| R2
-    VMs -.->|Tier 1 only| ASR
-```
+![Primary region backups (Veeam to immutable blob, Azure Backup vault, Azure SQL) copied to a secondary region, with RPO and RTO per tier](../diagrams/azure-backup-dr-two-region.svg)
 
 Veeam Backup for Microsoft Azure writes to **Azure Blob storage repositories**, not to a Recovery Services vault. The vault holds the native Azure Backup items (SQL in VM) and the backup of the Veeam appliance itself.
 
