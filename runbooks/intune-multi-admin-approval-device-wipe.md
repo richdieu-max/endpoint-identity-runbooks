@@ -15,23 +15,7 @@ Multi Admin Approval (MAA) is a two-person rule: one initiator, one different ap
 
 ## How it fits together
 
-```mermaid
-flowchart TB
-    subgraph Authorise approvers
-        G[Entra security group<br/>2+ members, not a M365 or mail group] --> R[Assigned to an Intune role<br/>with device-action Read]
-    end
-    subgraph Gate the action
-        P1[Access policy: Device wipe] --> AP[Approver group]
-        P2[Access policy: Device retire] --> AP
-        P3[Access policy: Device delete] --> AP
-    end
-    R --> AP
-    I[Initiator selects Wipe] --> Q[Request for wipe<br/>+ business justification]
-    Q --> V{Different admin<br/>reviews}
-    V -->|Approve| C[Initiator selects Complete<br/>→ wipe runs]
-    V -->|Reject| X[Closed, nothing runs]
-    Q -.audit log.-> N[Notification flow<br/>alerts approvers]
-```
+![One-time setup of approver group, role and access policies, then the request, notify, approve or reject, and complete flow](../diagrams/intune-multi-admin-approval-device-wipe.svg)
 
 ## Prerequisites
 

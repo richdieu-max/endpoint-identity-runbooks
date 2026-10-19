@@ -8,19 +8,7 @@ The organisation name and the initial `*.onmicrosoft.com` domain are permanent, 
 
 ## Target end state
 
-```mermaid
-flowchart TB
-    T[Entra tenant] --> BG[2 break-glass accounts<br/>cloud-only, excluded from CA,<br/>credentials offline]
-    T --> MFA[MFA for everyone<br/>Conditional Access, or Security Defaults]
-    T --> D[Custom domain verified<br/>DNS TXT record]
-    T --> MG[Tenant root group]
-    MG --> ORG[org-root management group<br/>policy initiatives assigned here]
-    ORG --> PLAT[Platform<br/>logging, connectivity]
-    ORG --> LZ[Landing zones]
-    LZ --> PRD[Production]
-    LZ --> NP[Non-production]
-    ORG --> SB[Sandbox]
-```
+![Entra ID tenant with break-glass accounts, MFA and a verified domain, anchoring a management group hierarchy with policy assigned at org-root](../diagrams/azure-tenant-foundation.svg)
 
 ## Steps
 
