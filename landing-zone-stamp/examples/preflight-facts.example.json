@@ -1,0 +1,27 @@
+{
+  "_note": "FICTIONAL facts for a brand-new subscription, used by CI to test the gate logic offline.",
+  "subscriptionId": "00000000-0000-0000-0000-000000000000",
+  "signedInUserType": "Guest",
+  "roles": [
+    {
+      "role": "Owner",
+      "scope": "/subscriptions/00000000-0000-0000-0000-000000000000",
+      "condition": "example condition that limits which roles may be assigned"
+    }
+  ],
+  "canCreateGroups": null,
+  "vmFamily": "standardDSv5Family",
+  "quotaLimit": 0,
+  "quotaUsed": 0,
+  "skuRestricted": false,
+  "providers": [
+    { "namespace": "Microsoft.Compute", "state": "Registered" },
+    { "namespace": "Microsoft.Network", "state": "Registered" },
+    { "namespace": "Microsoft.KeyVault", "state": "Registered" },
+    { "namespace": "Microsoft.RecoveryServices", "state": "NotRegistered" },
+    { "namespace": "Microsoft.OperationalInsights", "state": "Registered" },
+    { "namespace": "Microsoft.Insights", "state": "Registered" }
+  ],
+  "encryptionAtHost": "NotRegistered",
+  "entraP2": false
+}

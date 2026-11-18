@@ -1,0 +1,28 @@
+# /etc/systemd/system/app.service  (SKELETON)
+# The service starts through start-with-secrets.sh, which fetches secrets from
+# Key Vault with the VM's managed identity and hands them to the app as
+# environment variables. Nothing secret is written to disk.
+[Unit]
+Description=Example workload (secrets fetched from Key Vault at start)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=app
+Group=app
+ExecStart=/opt/app/bin/start-with-secrets.sh
+Restart=on-failure
+RestartSec=10
+
+# Hardening: the service sees a read-only system and no home directories.
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/var/lib/app
+CapabilityBoundingSet=
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

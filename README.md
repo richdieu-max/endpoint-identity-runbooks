@@ -14,6 +14,14 @@ Every runbook follows the same shape: what it does and where it stops, a diagram
 | [Point-to-site VPN with Entra ID sign-in](runbooks/azure-p2s-vpn-entra-id.md) | Azure VPN Gateway, Entra ID | Admin RDP to VMs with no public IP, through an MFA-protected OpenVPN tunnel |
 | [Two-region backup and DR design](runbooks/azure-backup-dr-two-region.md) | Veeam Backup for Microsoft Azure, Azure Backup, Site Recovery | 4-hour recovery points, immutable off-site copies, tiered RPO/RTO and a test cadence |
 
+## Build as code
+
+| Folder | What it is |
+|---|---|
+| [landing-zone-stamp](landing-zone-stamp/) | Skeleton of a multi-customer Azure build in Bicep: management groups and guardrails, a shared foundation (hub, WAF policy, logging), one isolated **stamp** per customer, a read-only preflight that finds blockers before deploying, and a VM start-up script that reads Key Vault secrets with its managed identity. Diagrams explain each concept. |
+
+![Landing zone and customer stamps](landing-zone-stamp/diagrams/landing-zone-architecture.svg)
+
 ## Related
 
 - [azure-posture-check](https://github.com/richdieu-max/azure-posture-check): read-only PowerShell check that verifies many of these settings and writes hashed evidence.

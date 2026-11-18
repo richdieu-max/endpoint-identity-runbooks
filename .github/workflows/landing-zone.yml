@@ -1,0 +1,70 @@
+name: Landing zone skeleton
+
+on:
+  push:
+    branches: [main]
+    paths: ['landing-zone-stamp/**', '.github/workflows/landing-zone.yml']
+  pull_request:
+    paths: ['landing-zone-stamp/**', '.github/workflows/landing-zone.yml']
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: landing-zone-stamp
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compile every Bicep file
+        run: |
+          az bicep install
+          set -e
+          for f in $(find bicep -name '*.bicep' | sort); do
+            echo "::group::$f"
+            az bicep build --file "$f" --stdout > /dev/null
+            echo "::endgroup::"
+          done
+          for f in bicep/*.bicepparam; do
+            echo "::group::$f"
+            az bicep build-params --file "$f" --stdout > /dev/null
+            echo "::endgroup::"
+          done
+
+      - name: Lint the start-up script
+        run: shellcheck -x vm-secrets-at-start/start-with-secrets.sh
+
+      - name: Start-up script against a mocked IMDS and Key Vault
+        run: |
+          T=$(mktemp -d); mkdir "$T/bin"
+          cat > "$T/bin/curl" <<'EOF'
+          #!/usr/bin/env bash
+          url="${@: -1}"
+          case "$url" in
+            *169.254.169.254*) echo '{"access_token":"test-token"}';;
+            *secrets/*) echo '{"value":"test-value"}';;
+          esac
+          EOF
+          printf '#!/usr/bin/env bash\n[ "$DATABASE_URL" = test-value ] && echo app started\n' > "$T/bin/app"
+          chmod +x "$T"/bin/*
+          sed 's/^VAULT_NAME=.*/VAULT_NAME=test-kv/' vm-secrets-at-start/app.conf.example > "$T/app.conf"
+          PATH="$T/bin:$PATH" APP_CONF="$T/app.conf" APP_BIN="$T/bin/app" ./vm-secrets-at-start/start-with-secrets.sh | tee "$T/out"
+          grep -q 'app started' "$T/out"
+
+      - name: Preflight (parse and offline run)
+        shell: pwsh
+        run: |
+          $path = './scripts/Test-StampPreflight.skeleton.ps1'
+          $tokens = $null; $errors = $null
+          [System.Management.Automation.Language.Parser]::ParseFile((Resolve-Path $path), [ref]$tokens, [ref]$errors) | Out-Null
+          if ($errors) { $errors | Format-List; throw "$($errors.Count) parse error(s)" }
+          & $path -FactsFile ./examples/preflight-facts.example.json -OutputPath ./out
+          $run = Get-ChildItem ./out -Directory | Select-Object -First 1
+          $files = @(Get-ChildItem $run.FullName -File)
+          if ($files.Count -ne 3) { throw "Expected 3 evidence files, found $($files.Count)" }
+          $json = Get-Content -Raw (Join-Path $run.FullName 'preflight.json') | ConvertFrom-Json
+          $blocked = @($json.gates | Where-Object Status -eq 'BLOCKED').Count
+          if ($blocked -ne 4) { throw "Example facts should block 4 gates (G2, G4, G6, G7); got $blocked" }

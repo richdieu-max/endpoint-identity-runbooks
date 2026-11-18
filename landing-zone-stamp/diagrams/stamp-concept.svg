@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="The deployment stamp, as a rubber stamp">
+<title>The deployment stamp, as a rubber stamp</title>
+<defs><marker id="m4493F8" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4493F8"/></marker><marker id="mD29922" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#D29922"/></marker></defs>
+<rect x="0" y="0" width="1280" height="640" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2"/>
+<rect x="0" y="0" width="1280" height="6" rx="0" fill="#1F6FEB" stroke="none" stroke-width="1.2"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#E6EDF3" text-anchor="start">The deployment stamp, as a rubber stamp</text>
+<text x="32" y="74" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#9198A1" text-anchor="start">One template, pressed once per customer. Every imprint is identical; only the ink (parameters) changes.</text>
+<ellipse cx="250" cy="150" rx="70" ry="26" fill="#3A2A12" stroke="#D29922" stroke-width="1.6"/>
+<rect x="222" y="150" width="56" height="90" rx="6" fill="#3A2A12" stroke="#D29922" stroke-width="1.6"/>
+<rect x="120" y="240" width="260" height="62" rx="8" fill="#211D12" stroke="#D29922" stroke-width="1.8"/>
+<text x="250" y="268" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="16" font-weight="700" fill="#D29922" text-anchor="middle">main.stamp.bicep</text>
+<text x="250" y="288" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="middle">the template never changes</text>
+<rect x="111.5" y="332" width="280" height="150" rx="6" fill="#000" stroke="none" stroke-width="1.2" opacity="0.25"/>
+<rect x="110" y="330" width="280" height="150" rx="6" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="110" y="330" width="4" height="150" rx="2" fill="#D29922" stroke="none" stroke-width="1.2"/>
+<text x="124" y="352" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#D29922" text-anchor="start">The ink (parameters)</text>
+<text x="124" y="372" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">stampId        c001 / c002 / c003</text>
+<text x="124" y="390" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">spokeAddressPrefix  10.20.x.0/24</text>
+<text x="124" y="408" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">sshPublicKey   per environment</text>
+<text x="124" y="426" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">customer secrets: in each</text>
+<text x="124" y="444" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">stamp&#x27;s own Key Vault</text>
+<path d="M392,270 L520,200" fill="none" stroke="#D29922" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#mD29922)"/>
+<path d="M392,270 L520,340" fill="none" stroke="#D29922" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#mD29922)"/>
+<path d="M392,270 L520,480" fill="none" stroke="#D29922" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="5 4" marker-end="url(#mD29922)"/>
+<rect x="520" y="120" width="330" height="118" rx="10" fill="#101A14" stroke="#3FB950" stroke-width="2" stroke-dasharray="2 0"/>
+<text x="540" y="148" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#3FB950" text-anchor="start">stamp c001</text>
+<text x="830" y="148" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="end">customer A</text>
+<rect x="540" y="173" width="42.64" height="20" rx="10" fill="#121D2F" stroke="#4493F8" stroke-width="1"/>
+<text x="561.32" y="187.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#4493F8" text-anchor="middle">VNet</text>
+<rect x="590.64" y="173" width="36" height="20" rx="10" fill="#12261A" stroke="#3FB950" stroke-width="1"/>
+<text x="608.64" y="187.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#3FB950" text-anchor="middle">VM</text>
+<rect x="634.64" y="173" width="73.44" height="20" rx="10" fill="#0F2426" stroke="#39C5CF" stroke-width="1"/>
+<text x="671.36" y="187.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#39C5CF" text-anchor="middle">Key Vault</text>
+<rect x="716.0799999999999" y="173" width="54.96" height="20" rx="10" fill="#1E1A2E" stroke="#AB7DF8" stroke-width="1"/>
+<text x="743.56" y="187.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#AB7DF8" text-anchor="middle">Backup</text>
+<rect x="779.04" y="173" width="73.44" height="20" rx="10" fill="#211D12" stroke="#D29922" stroke-width="1"/>
+<text x="815.76" y="187.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#D29922" text-anchor="middle">NAT + NSG</text>
+<text x="540" y="220" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">10.20.0.0/24   c001 vault holds only c001 secrets</text>
+<rect x="520" y="260" width="330" height="118" rx="10" fill="#101A14" stroke="#3FB950" stroke-width="2" stroke-dasharray="7 4"/>
+<text x="540" y="288" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#3FB950" text-anchor="start">stamp c002</text>
+<text x="830" y="288" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="end">customer B</text>
+<rect x="540" y="313" width="42.64" height="20" rx="10" fill="#121D2F" stroke="#4493F8" stroke-width="1"/>
+<text x="561.32" y="327.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#4493F8" text-anchor="middle">VNet</text>
+<rect x="590.64" y="313" width="36" height="20" rx="10" fill="#12261A" stroke="#3FB950" stroke-width="1"/>
+<text x="608.64" y="327.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#3FB950" text-anchor="middle">VM</text>
+<rect x="634.64" y="313" width="73.44" height="20" rx="10" fill="#0F2426" stroke="#39C5CF" stroke-width="1"/>
+<text x="671.36" y="327.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#39C5CF" text-anchor="middle">Key Vault</text>
+<rect x="716.0799999999999" y="313" width="54.96" height="20" rx="10" fill="#1E1A2E" stroke="#AB7DF8" stroke-width="1"/>
+<text x="743.56" y="327.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#AB7DF8" text-anchor="middle">Backup</text>
+<rect x="779.04" y="313" width="73.44" height="20" rx="10" fill="#211D12" stroke="#D29922" stroke-width="1"/>
+<text x="815.76" y="327.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#D29922" text-anchor="middle">NAT + NSG</text>
+<text x="540" y="360" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">10.20.1.0/24   c002 vault holds only c002 secrets</text>
+<rect x="520" y="400" width="330" height="118" rx="10" fill="#101A14" stroke="#3FB950" stroke-width="2" stroke-dasharray="7 4"/>
+<text x="540" y="428" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#3FB950" text-anchor="start">stamp c003</text>
+<text x="830" y="428" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="end">customer C</text>
+<rect x="540" y="453" width="42.64" height="20" rx="10" fill="#121D2F" stroke="#4493F8" stroke-width="1"/>
+<text x="561.32" y="467.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#4493F8" text-anchor="middle">VNet</text>
+<rect x="590.64" y="453" width="36" height="20" rx="10" fill="#12261A" stroke="#3FB950" stroke-width="1"/>
+<text x="608.64" y="467.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#3FB950" text-anchor="middle">VM</text>
+<rect x="634.64" y="453" width="73.44" height="20" rx="10" fill="#0F2426" stroke="#39C5CF" stroke-width="1"/>
+<text x="671.36" y="467.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#39C5CF" text-anchor="middle">Key Vault</text>
+<rect x="716.0799999999999" y="453" width="54.96" height="20" rx="10" fill="#1E1A2E" stroke="#AB7DF8" stroke-width="1"/>
+<text x="743.56" y="467.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#AB7DF8" text-anchor="middle">Backup</text>
+<rect x="779.04" y="453" width="73.44" height="20" rx="10" fill="#211D12" stroke="#D29922" stroke-width="1"/>
+<text x="815.76" y="467.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#D29922" text-anchor="middle">NAT + NSG</text>
+<text x="540" y="500" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">10.20.2.0/24   c003 vault holds only c003 secrets</text>
+<rect x="890" y="120" width="360" height="398" rx="10" fill="#121D2F" stroke="#4493F8" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="910" y="150" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#4493F8" text-anchor="start">The page: shared foundation</text>
+<text x="910" y="180" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#E6EDF3" text-anchor="start">Every imprint lands on the same page:</text>
+<text x="910" y="200" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#E6EDF3" text-anchor="start"></text>
+<text x="910" y="220" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#E6EDF3" text-anchor="start">  hub VNet and WAF (one way in)</text>
+<text x="910" y="240" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#E6EDF3" text-anchor="start">  Log Analytics (one place to look)</text>
+<text x="910" y="260" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#E6EDF3" text-anchor="start">  guardrail policies (one set of rules)</text>
+<text x="910" y="280" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#E6EDF3" text-anchor="start"></text>
+<text x="910" y="300" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#E6EDF3" text-anchor="start">Stamps never peer with each other.</text>
+<text x="910" y="320" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#E6EDF3" text-anchor="start">A problem in c002 cannot reach c001,</text>
+<text x="910" y="340" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#E6EDF3" text-anchor="start">and c001&#x27;s identity cannot read</text>
+<text x="910" y="360" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#E6EDF3" text-anchor="start">c002&#x27;s vault.</text>
+<text x="910" y="380" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#E6EDF3" text-anchor="start"></text>
+<text x="910" y="400" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#E6EDF3" text-anchor="start">Retiring a customer = delete one</text>
+<text x="910" y="420" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#E6EDF3" text-anchor="start">resource group, move the subscription</text>
+<text x="910" y="440" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#E6EDF3" text-anchor="start">to -decommissioned.</text>
+<path d="M850,180 L890,180" fill="none" stroke="#4493F8" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#m4493F8)"/>
+<path d="M850,320 L890,320" fill="none" stroke="#4493F8" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#m4493F8)"/>
+<path d="M850,460 L890,460" fill="none" stroke="#4493F8" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#m4493F8)"/>
+<text x="32" y="622" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start" font-style="italic">Why stamps: isolation per customer, identical builds you can audit once, and onboarding that is a parameter file, not a project.</text>
+</svg>

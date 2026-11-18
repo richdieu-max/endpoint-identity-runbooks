@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 540" width="1280" height="540" role="img" aria-label="Preflight gates: what has to be open before the first resource is built">
+<title>Preflight gates: what has to be open before the first resource is built</title>
+<defs><marker id="m9198A1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9198A1"/></marker></defs>
+<rect x="0" y="0" width="1280" height="540" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2"/>
+<rect x="0" y="0" width="1280" height="6" rx="0" fill="#1F6FEB" stroke="none" stroke-width="1.2"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#E6EDF3" text-anchor="start">Preflight gates: what has to be open before the first resource is built</text>
+<text x="32" y="74" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#9198A1" text-anchor="start">Each gate is a real reason builds stop half way. The preflight checks them read-only and names who holds the key.</text>
+<rect x="40" y="240" width="1200" height="70" rx="35" fill="#161B22" stroke="#3D444D" stroke-width="1.2"/>
+<path d="M90,275 L1190,275" fill="none" stroke="#3D444D" stroke-width="3" stroke-linejoin="round" stroke-dasharray="18 14"/>
+<rect x="52" y="117" width="108.16000000000001" height="20" rx="10" fill="#161B22" stroke="#9198A1" stroke-width="1"/>
+<text x="106.08000000000001" y="131.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#9198A1" text-anchor="middle">Access granted</text>
+<rect x="1140" y="117" width="56.64" height="20" rx="10" fill="#12261A" stroke="#3FB950" stroke-width="1"/>
+<text x="1168.32" y="131.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3FB950" text-anchor="middle">Deploy</text>
+<rect x="176" y="210" width="8" height="100" rx="2" fill="#D29922" stroke="none" stroke-width="1.2"/>
+<rect x="180" y="222" width="70" height="9" rx="3" fill="#D29922" stroke="none" stroke-width="1.2" opacity="0.9"/>
+<rect x="190" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<rect x="210" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<rect x="230" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<circle cx="180" cy="180" r="13" fill="#211D12" stroke="#D29922" stroke-width="1.6"/>
+<text x="180" y="184.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#D29922" text-anchor="middle">G1</text>
+<text x="180" y="340" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="middle">Owner / UAA</text>
+<text x="180" y="358" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#D29922" text-anchor="middle">Subscription owner</text>
+<rect x="302" y="210" width="8" height="100" rx="2" fill="#D29922" stroke="none" stroke-width="1.2"/>
+<rect x="306" y="222" width="70" height="9" rx="3" fill="#D29922" stroke="none" stroke-width="1.2" opacity="0.9"/>
+<rect x="316" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<rect x="336" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<rect x="356" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<circle cx="306" cy="180" r="13" fill="#211D12" stroke="#D29922" stroke-width="1.6"/>
+<text x="306" y="184.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#D29922" text-anchor="middle">G2</text>
+<text x="306" y="340" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="middle">No role condition</text>
+<text x="306" y="358" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#D29922" text-anchor="middle">Subscription owner</text>
+<rect x="428" y="210" width="8" height="100" rx="2" fill="#AB7DF8" stroke="none" stroke-width="1.2"/>
+<rect x="432" y="222" width="70" height="9" rx="3" fill="#AB7DF8" stroke="none" stroke-width="1.2" opacity="0.9"/>
+<rect x="442" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<rect x="462" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<rect x="482" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<circle cx="432" cy="180" r="13" fill="#1E1A2E" stroke="#AB7DF8" stroke-width="1.6"/>
+<text x="432" y="184.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#AB7DF8" text-anchor="middle">G3</text>
+<text x="432" y="340" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="middle">Can create groups</text>
+<text x="432" y="358" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#AB7DF8" text-anchor="middle">Global Administrator</text>
+<rect x="554" y="210" width="8" height="100" rx="2" fill="#D29922" stroke="none" stroke-width="1.2"/>
+<rect x="558" y="222" width="70" height="9" rx="3" fill="#D29922" stroke="none" stroke-width="1.2" opacity="0.9"/>
+<rect x="568" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<rect x="588" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<rect x="608" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<circle cx="558" cy="180" r="13" fill="#211D12" stroke="#D29922" stroke-width="1.6"/>
+<text x="558" y="184.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#D29922" text-anchor="middle">G4</text>
+<text x="558" y="340" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="middle">vCPU quota</text>
+<text x="558" y="358" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#D29922" text-anchor="middle">Subscription owner</text>
+<rect x="680" y="210" width="8" height="100" rx="2" fill="#4493F8" stroke="none" stroke-width="1.2"/>
+<rect x="684" y="222" width="70" height="9" rx="3" fill="#4493F8" stroke="none" stroke-width="1.2" opacity="0.9"/>
+<rect x="694" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<rect x="714" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<rect x="734" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<circle cx="684" cy="180" r="13" fill="#121D2F" stroke="#4493F8" stroke-width="1.6"/>
+<text x="684" y="184.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#4493F8" text-anchor="middle">G5</text>
+<text x="684" y="340" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="middle">VM size offered</text>
+<text x="684" y="358" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#4493F8" text-anchor="middle">You</text>
+<rect x="806" y="210" width="8" height="100" rx="2" fill="#4493F8" stroke="none" stroke-width="1.2"/>
+<rect x="810" y="222" width="70" height="9" rx="3" fill="#4493F8" stroke="none" stroke-width="1.2" opacity="0.9"/>
+<rect x="820" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<rect x="840" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<rect x="860" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<circle cx="810" cy="180" r="13" fill="#121D2F" stroke="#4493F8" stroke-width="1.6"/>
+<text x="810" y="184.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#4493F8" text-anchor="middle">G6</text>
+<text x="810" y="340" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="middle">Providers</text>
+<text x="810" y="358" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#4493F8" text-anchor="middle">You</text>
+<rect x="932" y="210" width="8" height="100" rx="2" fill="#4493F8" stroke="none" stroke-width="1.2"/>
+<rect x="936" y="222" width="70" height="9" rx="3" fill="#4493F8" stroke="none" stroke-width="1.2" opacity="0.9"/>
+<rect x="946" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<rect x="966" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<rect x="986" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<circle cx="936" cy="180" r="13" fill="#121D2F" stroke="#4493F8" stroke-width="1.6"/>
+<text x="936" y="184.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#4493F8" text-anchor="middle">G7</text>
+<text x="936" y="340" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="middle">Encryption at host</text>
+<text x="936" y="358" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#4493F8" text-anchor="middle">You</text>
+<rect x="1058" y="210" width="8" height="100" rx="2" fill="#39C5CF" stroke="none" stroke-width="1.2"/>
+<rect x="1062" y="222" width="70" height="9" rx="3" fill="#39C5CF" stroke="none" stroke-width="1.2" opacity="0.45"/>
+<rect x="1072" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<rect x="1092" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<rect x="1112" y="222" width="10" height="9" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2" opacity="0.6"/>
+<circle cx="1062" cy="180" r="13" fill="#0F2426" stroke="#39C5CF" stroke-width="1.6"/>
+<text x="1062" y="184.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="700" fill="#39C5CF" text-anchor="middle">G8</text>
+<text x="1062" y="340" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="middle">Entra P2 (PIM)</text>
+<text x="1062" y="358" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#39C5CF" text-anchor="middle">System owner</text>
+<text x="1062" y="376" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="middle" font-style="italic">(warning only)</text>
+<path d="M120,130 L160,170" fill="none" stroke="#9198A1" stroke-width="1.6" stroke-linejoin="round" marker-end="url(#m9198A1)"/>
+<rect x="60" y="410" width="16" height="16" rx="3" fill="#4493F8" stroke="none" stroke-width="1.2"/>
+<text x="86" y="423" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#E6EDF3" text-anchor="start">You</text>
+<rect x="350" y="410" width="16" height="16" rx="3" fill="#D29922" stroke="none" stroke-width="1.2"/>
+<text x="376" y="423" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#E6EDF3" text-anchor="start">Subscription owner</text>
+<rect x="640" y="410" width="16" height="16" rx="3" fill="#AB7DF8" stroke="none" stroke-width="1.2"/>
+<text x="666" y="423" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#E6EDF3" text-anchor="start">Global Administrator</text>
+<rect x="930" y="410" width="16" height="16" rx="3" fill="#39C5CF" stroke="none" stroke-width="1.2"/>
+<text x="956" y="423" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="400" fill="#E6EDF3" text-anchor="start">System owner</text>
+<text x="60" y="470" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9198A1" text-anchor="start">Output: a table with PASS / BLOCKED / WARN / Could not check per gate, plus preflight.md, preflight.json and a SHA-256 manifest.</text>
+<text x="60" y="492" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#9198A1" text-anchor="start">A failed lookup is never reported as PASS. Run it again after each gate is opened, and keep the runs as evidence of the access timeline.</text>
+</svg>
