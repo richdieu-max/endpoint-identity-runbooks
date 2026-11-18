@@ -1,0 +1,5 @@
+# /etc/app/app.conf  (SKELETON, not secret)
+# Which vault to read, and which secret becomes which environment variable.
+# Format of SECRET_MAP entries: ENV_VAR_NAME=key-vault-secret-name
+VAULT_NAME=contoso-c001-prd-kv
+SECRET_MAP="DATABASE_URL=database-url PAYMENT_API_KEY=payment-api-key WEBHOOK_SIGNING_SECRET=webhook-signing-secret"

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 600" width="1280" height="600" role="img" aria-label="Anatomy of a resource name">
+<title>Anatomy of a resource name</title>
+<defs></defs>
+<rect x="0" y="0" width="1280" height="600" rx="0" fill="#0D1117" stroke="none" stroke-width="1.2"/>
+<rect x="0" y="0" width="1280" height="6" rx="0" fill="#1F6FEB" stroke="none" stroke-width="1.2"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#E6EDF3" text-anchor="start">Anatomy of a resource name</text>
+<text x="32" y="74" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#9198A1" text-anchor="start">Every name answers six questions in a fixed order, so a name alone tells you what, whose, where and which.</text>
+<text x="175.0" y="210" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="42" font-weight="700" fill="#4493F8" text-anchor="middle">contoso</text>
+<path d="M78,228 L78,238 L272,238 L272,228" fill="none" stroke="#4493F8" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M175.0,238 L175.0,280" fill="none" stroke="#4493F8" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="3 3"/>
+<rect x="143.46" y="281" width="63.080000000000005" height="20" rx="10" fill="#121D2F" stroke="#4493F8" stroke-width="1"/>
+<text x="175.0" y="295.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#4493F8" text-anchor="middle">product</text>
+<text x="294" y="210" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="42" font-weight="400" fill="#9198A1" text-anchor="middle">-</text>
+<text x="383.0" y="210" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="42" font-weight="700" fill="#3FB950" text-anchor="middle">c001</text>
+<path d="M316,228 L316,238 L450,238 L450,228" fill="none" stroke="#3FB950" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M383.0,238 L383.0,280" fill="none" stroke="#3FB950" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="3 3"/>
+<rect x="348.24" y="281" width="69.52000000000001" height="20" rx="10" fill="#12261A" stroke="#3FB950" stroke-width="1"/>
+<text x="383.0" y="295.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3FB950" text-anchor="middle">workload</text>
+<text x="472" y="210" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="42" font-weight="400" fill="#9198A1" text-anchor="middle">-</text>
+<text x="546.0" y="210" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="42" font-weight="700" fill="#D29922" text-anchor="middle">prd</text>
+<path d="M494,228 L494,238 L598,238 L598,228" fill="none" stroke="#D29922" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M546.0,238 L546.0,280" fill="none" stroke="#D29922" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="3 3"/>
+<rect x="527.34" y="281" width="37.32" height="20" rx="10" fill="#211D12" stroke="#D29922" stroke-width="1"/>
+<text x="546.0" y="295.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#D29922" text-anchor="middle">env</text>
+<text x="620" y="210" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="42" font-weight="400" fill="#9198A1" text-anchor="middle">-</text>
+<text x="704.0" y="210" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="42" font-weight="700" fill="#39C5CF" text-anchor="middle">eus2</text>
+<path d="M642,228 L642,238 L766,238 L766,228" fill="none" stroke="#39C5CF" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M704.0,238 L704.0,280" fill="none" stroke="#39C5CF" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="3 3"/>
+<rect x="675.68" y="281" width="56.64" height="20" rx="10" fill="#0F2426" stroke="#39C5CF" stroke-width="1"/>
+<text x="704.0" y="295.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#39C5CF" text-anchor="middle">region</text>
+<text x="788" y="210" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="42" font-weight="400" fill="#9198A1" text-anchor="middle">-</text>
+<text x="852.0" y="210" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="42" font-weight="700" fill="#AB7DF8" text-anchor="middle">vm</text>
+<path d="M810,228 L810,238 L894,238 L894,228" fill="none" stroke="#AB7DF8" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M852.0,238 L852.0,280" fill="none" stroke="#AB7DF8" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="3 3"/>
+<rect x="830.12" y="281" width="43.760000000000005" height="20" rx="10" fill="#1E1A2E" stroke="#AB7DF8" stroke-width="1"/>
+<text x="852.0" y="295.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#AB7DF8" text-anchor="middle">type</text>
+<text x="916" y="210" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="42" font-weight="400" fill="#9198A1" text-anchor="middle">-</text>
+<text x="975.0" y="210" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="42" font-weight="700" fill="#9198A1" text-anchor="middle">01</text>
+<path d="M938,228 L938,238 L1012,238 L1012,228" fill="none" stroke="#9198A1" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M975.0,238 L975.0,280" fill="none" stroke="#9198A1" stroke-width="1.2" stroke-linejoin="round" stroke-dasharray="3 3"/>
+<rect x="957.0" y="281" width="36" height="20" rx="10" fill="#161B22" stroke="#9198A1" stroke-width="1"/>
+<text x="975.0" y="295.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#9198A1" text-anchor="middle">nn</text>
+<text x="1240" y="150" font-family="'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace" font-size="13" font-weight="400" fill="#9198A1" text-anchor="end">contoso-c001-prd-eus2-vm-01</text>
+<rect x="60" y="340" width="380" height="50" rx="6" fill="#1C2128" stroke="#3D444D" stroke-width="1.2"/>
+<rect x="60" y="340" width="4" height="50" rx="2" fill="#4493F8" stroke="none" stroke-width="1.2"/>
+<text x="76" y="361" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#4493F8" text-anchor="start">product</text>
+<text x="76" y="379" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Which product owns it</text>
+<rect x="460" y="340" width="380" height="50" rx="6" fill="#1C2128" stroke="#3D444D" stroke-width="1.2"/>
+<rect x="460" y="340" width="4" height="50" rx="2" fill="#3FB950" stroke="none" stroke-width="1.2"/>
+<text x="476" y="361" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#3FB950" text-anchor="start">workload</text>
+<text x="476" y="379" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Which stamp or platform part (plat, hub)</text>
+<rect x="860" y="340" width="380" height="50" rx="6" fill="#1C2128" stroke="#3D444D" stroke-width="1.2"/>
+<rect x="860" y="340" width="4" height="50" rx="2" fill="#D29922" stroke="none" stroke-width="1.2"/>
+<text x="876" y="361" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#D29922" text-anchor="start">env</text>
+<text x="876" y="379" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">dev, tst or prd</text>
+<rect x="60" y="404" width="380" height="50" rx="6" fill="#1C2128" stroke="#3D444D" stroke-width="1.2"/>
+<rect x="60" y="404" width="4" height="50" rx="2" fill="#39C5CF" stroke="none" stroke-width="1.2"/>
+<text x="76" y="425" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#39C5CF" text-anchor="start">region</text>
+<text x="76" y="443" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Short region code</text>
+<rect x="460" y="404" width="380" height="50" rx="6" fill="#1C2128" stroke="#3D444D" stroke-width="1.2"/>
+<rect x="460" y="404" width="4" height="50" rx="2" fill="#AB7DF8" stroke="none" stroke-width="1.2"/>
+<text x="476" y="425" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#AB7DF8" text-anchor="start">type</text>
+<text x="476" y="443" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Resource type abbreviation</text>
+<rect x="860" y="404" width="380" height="50" rx="6" fill="#1C2128" stroke="#3D444D" stroke-width="1.2"/>
+<rect x="860" y="404" width="4" height="50" rx="2" fill="#9198A1" stroke="none" stroke-width="1.2"/>
+<text x="876" y="425" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#9198A1" text-anchor="start">nn</text>
+<text x="876" y="443" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Instance number</text>
+<rect x="61.5" y="482" width="1160" height="86" rx="6" fill="#000" stroke="none" stroke-width="1.2" opacity="0.25"/>
+<rect x="60" y="480" width="1160" height="86" rx="6" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="60" y="480" width="4" height="86" rx="2" fill="#D29922" stroke="none" stroke-width="1.2"/>
+<text x="74" y="502" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#D29922" text-anchor="start">Where Azure forces an exception (and the rule still holds)</text>
+<text x="74" y="522" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Key Vault: 24 characters and globally unique, so region and number drop out: contoso-c001-prd-kv</text>
+<text x="74" y="540" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Storage accounts: lowercase letters and numbers only, so hyphens drop out.  VM computer name: 15 characters, hyphens drop out.</text>
+</svg>
